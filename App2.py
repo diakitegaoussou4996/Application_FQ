@@ -34,7 +34,7 @@ pages_name = ['Presentation', 'Modelisation_ARIMA/Graphiques','Synthèse']
 # Create a sidebar with a radio button to select the page
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Select a page", pages_name)
-st.sidebar.image('https://github.com/aanisoara/Projet_Finance/raw/main/Image/find.gif', width=150, use_column_width ='false')
+st.sidebar.image('https://github.com/diakitegaoussou4996/Application_FQ/raw/main/Image/find.gif', width=150, use_column_width ='false')
 st.sidebar.markdown("<h1 style='font-family:Lucida Caligraphy;font-size:15px;color:DarkSlateBlue;text-align: center;'> Members: Anisoara ABABII,  Gaoussou DIAKITE,  Eunice KOFFI </h1>", unsafe_allow_html=True)
 st.sidebar.markdown("<h1 style='font-family:Lucida Caligraphy;font-size:12px;color:DarkSlateBlue;text-align: center;'> Master 2 Modélistaion Statistiques Economiques et Financières </h1>", unsafe_allow_html=True)
 # Importation des données
@@ -308,7 +308,7 @@ else:
             """, unsafe_allow_html=True)
         
     #st.image('Image/frog.gif',width=300, use_column_width ='false')
-    st.image('https://github.com/aanisoara/Projet_Finance/raw/main/Image/homme.gif',width=300, use_column_width ='false')
+    st.image('https://github.com/diakitegaoussou4996/Application_FQ/raw/main/Image/homme.gif',width=300, use_column_width ='false')
     
     # _____________________ filtre de la table avec ls titres selectionés_______________
     selected_stocks = stock[options]
@@ -397,7 +397,7 @@ else:
             sns.countplot(x=selected_stock_data['CNTRY_OF_DOMICILE'])
             st.pyplot(plt)
 
-    st.image('https://github.com/aanisoara/Projet_Finance/raw/main/Image/thanks.gif',width=300, use_column_width ='false')
+    st.image('https://github.com/diakitegaoussou4996/Application_FQ/raw/main/Image/thanks.gif',width=300, use_column_width ='false')
 
 
 
