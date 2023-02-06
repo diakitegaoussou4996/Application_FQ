@@ -1,4 +1,3 @@
-pip install matplotlib
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -24,11 +23,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-plt.rcParams['lines.linewidth'] = 2
-matplotlib.rcParams['axes.labelsize'] = 14
-matplotlib.rcParams['xtick.labelsize'] = 12
-matplotlib.rcParams['ytick.labelsize'] = 12
-matplotlib.rcParams['text.color'] = 'k'
+#plt.rcParams['lines.linewidth'] = 2
+#matplotlib.rcParams['axes.labelsize'] = 14
+#matplotlib.rcParams['xtick.labelsize'] = 12
+#matplotlib.rcParams['ytick.labelsize'] = 12
+#matplotlib.rcParams['text.color'] = 'k'
 # Configuration de la page 
 
 pages_name = ['Presentation', 'Modelisation_ARIMA/Graphiques','Synthèse']
