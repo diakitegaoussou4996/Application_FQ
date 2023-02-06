@@ -236,7 +236,7 @@ elif page == 'Modelisation_ARIMA/Graphiques':
     An example of standardized residual plots, Histogram, quantile plots, and correlogram is provided in this section.
     </div>""", unsafe_allow_html=True)
     
-    plt.rcParams['lines.linewidth'] = 2
+    #plt.rcParams['lines.linewidth'] = 2
     fig = results.plot_diagnostics(figsize=(16, 14))
     st.pyplot(fig)
 
@@ -255,7 +255,7 @@ elif page == 'Modelisation_ARIMA/Graphiques':
 
     ax.set_xlabel('Dates')
     ax.set_ylabel('Returns')
-    plt.rcParams['lines.linewidth'] = 2
+    #plt.rcParams['lines.linewidth'] = 2
     plt.legend()
     plt.title("Validating forecasts")
     st.pyplot(fig2)
@@ -280,7 +280,7 @@ elif page == 'Modelisation_ARIMA/Graphiques':
                     pred_ci.iloc[:, 1], color='k', alpha=.3)
     ax.set_xlabel('Dates')
     ax.set_ylabel('Returns')
-    plt.rcParams['lines.linewidth'] = 2
+    #plt.rcParams['lines.linewidth'] = 2
     plt.legend()
     st.pyplot(fig3)
 
